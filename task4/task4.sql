@@ -7,7 +7,7 @@ USE data_warehouse;
 DROP TABLE IF EXISTS dim_voltage;
 CREATE TABLE dim_voltage (
     VOLTAGE_ID INT,
-    LEVEL_ID VARCHAR(255),
+    V_LEVEL VARCHAR(255),
     PRIMARY KEY (VOLTAGE_ID)
 );
 
@@ -28,8 +28,8 @@ CREATE TABLE dim_time (
     PRIMARY KEY (TIME_ID)
 );
 
-DROP TABLE IF EXISTS fact_order;
-CREATE TABLE fact_order (
+DROP TABLE IF EXISTS fact_table;
+CREATE TABLE fact_table (
     ENERGY_CONSUMPTION DOUBLE,
     TIME_ID INT,
     LOCATION_ID INT,

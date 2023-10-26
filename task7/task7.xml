@@ -1,0 +1,38 @@
+<Schema name="data_warehouse">
+  <Cube name="Cube" visible="true" cache="true" enabled="true">
+    <Table name="fact_table">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="LOCATION_ID" name="dim_location">
+      <Hierarchy name="Location Hierarchy" visible="true" hasAll="true" allMemberName="All Locations" primaryKey="LOCATION_ID">
+        <Table name="dim_location">
+        </Table>
+        <Level name="District" visible="true" column="DISTRICT_NAME" type="String" uniqueMembers="false" levelType="Regular">
+        </Level>
+        <Level name="Municipality" visible="true" column="MUNICIPALITY_NAME" type="String" uniqueMembers="false" levelType="Regular">
+        </Level>
+        <Level name="Parish" visible="true" column="PARISH" type="String" uniqueMembers="false" levelType="Regular">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="VOLTAGE_ID" name="dim_voltage">
+      <Hierarchy name="Voltage Hierarchy" visible="true" hasAll="true" allMemberName="All Voltages" primaryKey="VOLTAGE_ID">
+        <Table name="dim_voltage">
+        </Table>
+        <Level name="VLevel" visible="true" column="V_LEVEL" type="Numeric" uniqueMembers="false" levelType="Regular">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="TIME_ID" name="dim_time">
+      <Hierarchy name="Time Hierarchy" visible="true" hasAll="true" allMemberName="All Times" primaryKey="TIME_ID">
+        <Table name="dim_time">
+        </Table>
+        <Level name="Year" visible="true" column="YEAR_ID" type="Integer" uniqueMembers="false" levelType="Regular">
+        </Level>
+        <Level name="Month" visible="true" column="MONTH_ID" type="Integer" uniqueMembers="false" levelType="Regular">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Energy Consumption" column="ENERGY_CONSUMPTION" datatype="Numeric" formatString="#,###.000" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
