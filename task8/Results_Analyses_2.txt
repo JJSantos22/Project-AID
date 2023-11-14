@@ -1,0 +1,20 @@
+In this analyses we can see there 2 groups of Voltage Levels, "Baixa Tensão" and "Muito Alta, Alta e Média Tensões".
+
+From 2021 to 2022, every district saw it's Energy Consumption from a low voltage increase, specially Lisboa ( +151588520.35 kWh) and Faro ( +121943577.31 kWh). On the other hand the lowest increase was Portalegre ( +1702960.41 kWh) and Beja ( +2313672.00 kWh).
+
+Now when talking about high voltage there were some districts increasing and others decreasing.
+Those who increased the most were Lisboa (+248619152.00 kWh) and Faro (+79644647.00 kWh). 
+It is interesting to point out that Lisboa had a massive increase from one year to the other.
+
+On the other end of the spectrum you have 5 districts that decreased their Energy Consumption: Aveiro (-36452007.88 kWh), Coimbra (-87281984.00 kWh), Santarém (-23703130.00 kWh), Viana do Castelo (-1742191.00 kWh) and Viseu (-14561896.00 kWh).
+Here Coimbra was the one with the biggest decrease, more even that the other negative districts combined.
+
+
+
+
+
+
+
+
+
+

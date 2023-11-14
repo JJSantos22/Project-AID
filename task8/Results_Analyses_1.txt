@@ -1,0 +1,22 @@
+In this analyses the only years that qualified the asked criteria were 2021 and 2022.
+
+Overall there has been an increase of 970464193.588021 kWh in Energy Consumption from 2021 to 2022. 
+
+Beja increased by 48602110.00 kWh, 
+Braga by 47637162.22 kWh, 
+Bragança by 9334175.00 kWh, 
+Castelo Branco by 44388311.30 kWh, 
+Evora by 67877205.00 kWh,
+Faro by 201588224.31 kWh,
+Guarda by 14906490.00 kWh,
+Leiria by 35882980.97 kWh,
+Lisboa by 400207672.35 kWh,
+PortoAlegre by 14659436.41 kWh,
+Porto by 72555002.15 kWh,
+Setubal by 76252434.29 kWh,
+Viana do Castelo by 14777989.29 kWh,
+Vila Real by 25119893.61 kWh,
+Viseu by 5330661.60 kWh
+
+
+However some districts didn't follow that trend, them being Aveiro (-29210308.55), Coimbra (-76385817.00) and Santarém (-3059429.36).
